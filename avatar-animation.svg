@@ -121,7 +121,7 @@
       <rect x="10" y="50" width="40" height="70" fill="#ffb7fa" rx="5"/>
       
       <!-- Голова -->
-      <rect x="10" y="10" width="50" height="50" fill="#ffb7fa" rx="10"/>
+      <rect x="5" y="10" width="50" height="50" fill="#ffb7fa" rx="10"/>
       
       <!-- Глаза -->
       <g>
@@ -149,7 +149,7 @@
       <rect x="10" y="50" width="40" height="70" fill="#ffb7fa" rx="5"/>
       
       <!-- Голова -->
-      <rect x="10" y="10" width="50" height="50" fill="#ffb7fa" rx="10"/>
+      <rect x="5" y="10" width="50" height="50" fill="#ffb7fa" rx="10"/>
       
       <!-- Глаза (счастливые) -->
       <g>
