@@ -1,7 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <svg viewBox="0 0 200 200" xmlns="http://www.w3.org/2000/svg">
   <style>
-    @import url('https://fonts.googleapis.com/css2?family=Press+Start+2P&amp;display=swap');
+    @import url('https://fonts.googleapis.com/css2?family=Pixelify+Sans&amp;display=swap');
     
     /* Базовые стили */
     .pixel-bg {
@@ -30,8 +30,8 @@
     }
     
     @keyframes avatarBlink {
-      0%, 90%, 100% { transform: scaleY(1); }
-      95% { transform: scaleY(0.1); }
+      0%, 90%, 100% { transform: scaleY(1); transform: translateY(0); }
+      95% { transform: scaleY(0.1); transform: translateY(0); }
     }
     
     @keyframes avatarEmote {
@@ -118,62 +118,80 @@
     <!-- Обычное состояние -->
     <g class="avatar avatar-normal">
       <!-- Тело -->
-      <rect x="10" y="50" width="30" height="70" fill="#ffb7fa" rx="5"/>
+      <rect x="10" y="50" width="40" height="70" fill="#ffb7fa" rx="5"/>
       
       <!-- Голова -->
-      <rect x="0" y="0" width="40" height="40" fill="#ffb7fa" rx="10"/>
+      <rect x="10" y="10" width="50" height="50" fill="#ffb7fa" rx="10"/>
       
       <!-- Глаза -->
       <g>
-        <rect class="avatar-eye" x="20" y="25" width="8" height="8" fill="#9966ff"/>
-        <rect class="avatar-eye" x="42" y="25" width="8" height="8" fill="#9966ff"/>
+        <rect class="avatar-eye" x="20" y="30" width="6" height="6" fill="#9966ff"/>
+        <rect class="avatar-eye" x="44" y="30" width="6" height="6" fill="#9966ff"/>
       </g>
       
       <!-- Рот -->
-      <rect x="30" y="45" width="10" height="2" fill="#9966ff"/>
+      <rect x="30" y="42" width="10" height="2" fill="#9966ff"/>
       
       <!-- Пиксельные украшения -->
-      <rect class="pixel glow" x="10" y="10" width="4" height="4" fill="#6b21df" opacity="0.7"/>
-      <rect class="pixel glow" x="56" y="12" width="4" height="4" fill="#6b21df" opacity="0.7"/>
-      <rect class="pixel glow" x="12" y="56" width="4" height="4" fill="#6b21df" opacity="0.7"/>
-      <rect class="pixel glow" x="54" y="54" width="4" height="4" fill="#6b21df" opacity="0.7"/>
+      <rect class="pixel glow" x="16" y="16" width="4" height="4" fill="#6b21df" opacity="0.7"/>
+      <rect class="pixel glow" x="50" y="16" width="4" height="4" fill="#6b21df" opacity="0.7"/>
+      <rect class="pixel glow" x="16" y="50" width="4" height="4" fill="#6b21df" opacity="0.7"/>
+      <rect class="pixel glow" x="50" y="50" width="4" height="4" fill="#6b21df" opacity="0.7"/>
       
       <!-- Руки -->
-      <rect x="0" y="70" width="10" height="5" fill="#ffb7fa" rx="2"/>
-      <rect x="60" y="70" width="10" height="5" fill="#ffb7fa" rx="2"/>
+      <rect x="5" y="80" width="15" height="5" fill="#ffb7fa" rx="2"/>
+      <rect x="55" y="80" width="15" height="5" fill="#ffb7fa" rx="2"/>
     </g>
     
     <!-- Счастливое состояние -->
     <g class="avatar avatar-happy emote">
       <!-- Тело -->
-      <rect x="10" y="50" width="30" height="70" fill="#ffb7fa" rx="5"/>
+      <rect x="10" y="50" width="40" height="70" fill="#ffb7fa" rx="5"/>
       
       <!-- Голова -->
-      <rect x="0" y="0" width="40" height="40" fill="#ffb7fa" rx="10"/>
+      <rect x="10" y="10" width="50" height="50" fill="#ffb7fa" rx="10"/>
       
       <!-- Глаза (счастливые) -->
       <g>
-        <path d="M20,25 Q24,30 28,25" stroke="#9966ff" stroke-width="2" fill="none"/>
-        <path d="M42,25 Q46,30 50,25" stroke="#9966ff" stroke-width="2" fill="none"/>
+        <path d="M20,30 Q23,34 26,30" stroke="#9966ff" stroke-width="2" fill="none"/>
+        <path d="M44,30 Q47,34 50,30" stroke="#9966ff" stroke-width="2" fill="none"/>
       </g>
       
       <!-- Улыбка -->
-      <path d="M25,45 Q35,55 45,45" stroke="#9966ff" stroke-width="2" fill="none"/>
+      <path d="M25,42 Q35,48 45,42" stroke="#9966ff" stroke-width="2" fill="none"/>
       
       <!-- Пиксельные украшения -->
-      <rect class="pixel glow" x="10" y="10" width="4" height="4" fill="#6b21df" opacity="0.7"/>
-      <rect class="pixel glow" x="56" y="12" width="4" height="4" fill="#6b21df" opacity="0.7"/>
-      <rect class="pixel glow" x="12" y="56" width="4" height="4" fill="#6b21df" opacity="0.7"/>
-      <rect class="pixel glow" x="54" y="54" width="4" height="4" fill="#6b21df" opacity="0.7"/>
+      <rect class="pixel glow" x="16" y="16" width="4" height="4" fill="#6b21df" opacity="0.7"/>
+      <rect class="pixel glow" x="50" y="16" width="4" height="4" fill="#6b21df" opacity="0.7"/>
+      <rect class="pixel glow" x="16" y="50" width="4" height="4" fill="#6b21df" opacity="0.7"/>
+      <rect class="pixel glow" x="50" y="50" width="4" height="4" fill="#6b21df" opacity="0.7"/>
       
       <!-- Руки (подняты) -->
-      <rect x="-5" y="50" width="10" height="10" fill="#ffb7fa" rx="2" transform="rotate(-30, 0, 42)"/>
-      <rect x="65" y="50" width="10" height="10" fill="#ffb7fa" rx="2" transform="rotate(30, 70, 42)"/>
+      <rect x="5" y="80" width="15" height="5" fill="#ffb7fa" rx="2" transform="rotate(-30, 0, 72)"/>
+      <rect x="45" y="80" width="15" height="5" fill="#ffb7fa" rx="2" transform="rotate(30, 70, 72)"/>
     </g>
   </g>
   
+  <!-- Элементы интерфейса -->
   <g class="interface-elements" transform="translate(0, 130)">
-    <text font-family="'Press Start 2P', cursive" font-size="10" fill="#ffffff" x="100" y="20" text-anchor="middle">AVATAR</text>
-    
+    <text font-family="'Pixelify Sans', cursive" font-size="12" fill="#ffffff" x="100" y="20" text-anchor="middle">AVATAR</text>
     <g class="spin" transform="translate(100, 40)">
-      <rect x="-15"
+      <rect x="-15" y="-15" width="30" height="30" fill="none" stroke="#00ffea" stroke-width="2" rx="5"/>
+      <rect x="-10" y="-10" width="20" height="20" fill="none" stroke="#9966ff" stroke-width="2" rx="5"/>
+    </g>
+    <rect class="color-shift" x="30" y="35" width="10" height="10" rx="5"/>
+    <rect class="color-shift" x="160" y="35" width="10" height="10" rx="5"/>
+    <rect x="10" y="0" width="180" height="60" fill="none" stroke="#00ffea" stroke-width="2" stroke-dasharray="5,3" rx="5"/>
+  </g>
+  <g transform="translate(20, 30)">
+    <circle class="glow color-shift" cx="10" cy="10" r="4" opacity="0.6"/>
+  </g>
+  <g transform="translate(170, 30)">
+    <circle class="glow color-shift" cx="10" cy="10" r="4" opacity="0.6"/>
+  </g>
+  
+  <g transform="translate(0, 170)">
+    <rect x="50" y="0" width="100" height="20" fill="#333333" rx="5"/>
+    <text font-family="'Pixelify Sans', cursive" font-size="10" fill="#ffffff" x="100" y="14" text-anchor="middle">CUSTOMIZE</text>
+  </g>
+</svg>
