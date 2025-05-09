@@ -171,4 +171,18 @@
       <rect x="35" y="80" width="15" height="5" fill="#ffb7fa" rx="2" transform="rotate(30, 70, 72)"/>
     </g>
   </g>
+    
+    <!-- Декоративные элементы -->
+    <g class="spin" transform="translate(100, 40)">
+      <rect x="-15" y="-15" width="30" height="30" fill="none" stroke="#00ffea" stroke-width="2" rx="5"/>
+      <rect x="-10" y="-10" width="20" height="20" fill="none" stroke="#9966ff" stroke-width="2" rx="5"/>
+    </g>
+  
+  <!-- Дополнительные элементы -->
+  <g transform="translate(20, 30)">
+    <circle class="glow color-shift" cx="10" cy="10" r="4" opacity="0.6"/>
+  </g>
+  <g transform="translate(170, 30)">
+    <circle class="glow color-shift" cx="10" cy="10" r="4" opacity="0.6"/>
+  </g>
 </svg>
