@@ -1,10 +1,10 @@
-# Привет, я Ivan Kurbakov 👋
+# Hi, my name is Ivan Kurbakov 👋
 
 <div align="center" style="width: 100%">
   <img src="./profile-animation.svg" width="800" alt="Animated Profile">
 </div>
 
-## Мой технологический стек 💻
+## My stack 💻
 
 <table>
   <tr>
@@ -35,14 +35,14 @@
   </tr>
 </table>
 
-## Интересуюсь 🔍
+## Interested in 🔍
 
 <img src="https://img.shields.io/badge/Python-3776AB?style=for-the-badge&logo=python&logoColor=white" alt="Python"/>
 <img src="https://img.shields.io/badge/Rust-000000?style=for-the-badge&logo=rust&logoColor=white" alt="Rust"/>
 <img src="https://img.shields.io/badge/C/C++-00599C?style=for-the-badge&logo=c%2B%2B&logoColor=white" alt="C/C++"/>
 <img src="https://img.shields.io/badge/Bash-4EAA25?style=for-the-badge&logo=gnu-bash&logoColor=white" alt="Bash"/>
 
-## Мой аватар 🎮
+## Avatar 🎮
 
 <div align="center">
   <img src="./assets/avatar-animation.svg" width="200" alt="Animated Avatar">
