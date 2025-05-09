@@ -139,8 +139,8 @@
       <rect class="pixel glow" x="50" y="50" width="4" height="4" fill="#6b21df" opacity="0.7"/>
       
       <!-- Руки -->
-      <rect x="5" y="80" width="15" height="5" fill="#ffb7fa" rx="2"/>
-      <rect x="55" y="80" width="15" height="5" fill="#ffb7fa" rx="2"/>
+      <rect x="0" y="80" width="15" height="5" fill="#ffb7fa" rx="2"/>
+      <rect x="45" y="80" width="15" height="5" fill="#ffb7fa" rx="2"/>
     </g>
     
     <!-- Счастливое состояние -->
@@ -167,8 +167,8 @@
       <rect class="pixel glow" x="50" y="50" width="4" height="4" fill="#6b21df" opacity="0.7"/>
       
       <!-- Руки (подняты) -->
-      <rect x="5" y="80" width="15" height="5" fill="#ffb7fa" rx="2" transform="rotate(-30, 0, 72)"/>
-      <rect x="45" y="80" width="15" height="5" fill="#ffb7fa" rx="2" transform="rotate(30, 70, 72)"/>
+      <rect x="0" y="80" width="15" height="5" fill="#ffb7fa" rx="2" transform="rotate(-30, 0, 72)"/>
+      <rect x="35" y="80" width="15" height="5" fill="#ffb7fa" rx="2" transform="rotate(30, 70, 72)"/>
     </g>
   </g>
   
