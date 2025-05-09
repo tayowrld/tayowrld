@@ -224,27 +224,21 @@
       <tspan class="stack-item"> not a vibe coder</tspan>
     </text>
   </g>
-  <g class="avatar-container" transform="translate(600, 490)">
-    <!-- Пиксельный аватар -->
+  <g class="avatar-container" transform="translate(700, 490)">
     <g class="avatar">
-      <!-- Базовая форма головы -->
       <rect x="0" y="0" width="40" height="40" fill="#ffb7fa" rx="5"/>
       
-      <!-- Глаза -->
       <rect class="avatar-eye" x="10" y="15" width="5" height="5" fill="#9966ff"/>
       <rect class="avatar-eye" x="25" y="15" width="5" height="5" fill="#9966ff"/>
       
-      <!-- Улыбка -->
       <path d="M15,25 Q20,30 25,25" stroke="#9966ff" stroke-width="2" fill="none"/>
       
-      <!-- Пиксельные детали -->
       <rect class="pixel" x="5" y="5" width="3" height="3" fill="#6b21df" opacity="0.7"/>
       <rect class="pixel" x="32" y="7" width="3" height="3" fill="#6b21df" opacity="0.7"/>
       <rect class="pixel" x="8" y="32" width="3" height="3" fill="#6b21df" opacity="0.7"/>
       <rect class="pixel" x="29" y="30" width="3" height="3" fill="#6b21df" opacity="0.7"/>
     </g>
     
-    <!-- Пикселяция вокруг аватара -->
     <rect class="pixel floating-element" x="-10" y="15" width="4" height="4" fill="#00ffea" opacity="0.8"/>
     <rect class="pixel floating-element" x="46" y="20" width="4" height="4" fill="#9966ff" opacity="0.8"/>
     <rect class="pixel floating-element" x="15" y="-10" width="4" height="4" fill="#00ffea" opacity="0.8"/>
