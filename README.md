@@ -45,7 +45,7 @@
 ## Avatar 🎮
 
 <div align="center">
-  <img src="./assets/avatar-animation.svg" width="200" alt="Animated Avatar">
+  <img src="./avatar-animation.svg" width="200" alt="Animated Avatar">
 </div>
 
 ## Not a vibe coder
