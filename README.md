@@ -1,6 +1,6 @@
 # Привет, я Ivan Kurbakov 👋
 
-<div align="center">
+<div align="center" style="width: 100%">
   <img src="./profile-animation.svg" width="800" alt="Animated Profile">
 </div>
 
