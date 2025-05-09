@@ -1,7 +1,282 @@
-[![Typing SVG](https://readme-typing-svg.demolab.com?font=Pixelify+Sans&weight=500&size=24&letterSpacing=&duration=2000&color=2AFFE4&background=4600FF&center=true&vCenter=true&repeat=false&width=1000&height=100&lines=+this+readme+is+still+in+the+development+mode%2C+cause+I'm+bored)](https://git.io/typing-svg)
-[![Typing SVG](https://readme-typing-svg.demolab.com?font=Pixelify+Sans&weight=500&size=32&letterSpacing=&duration=2000&color=9A55FF&background=FBB4FF&vCenter=true&repeat=false&width=1000&height=100&lines=Hello%2C+my+name+is...)](https://git.io/typing-svg)
-[![Typing SVG](https://readme-typing-svg.demolab.com?font=Pixelify+Sans&weight=500&size=55&letterSpacing=&duration=1500&pause=&color=9A55FF&background=FBB4FF&center=true&vCenter=true&repeat=false&width=1000&height=100&lines=+;Ivan+Kurbakov)](https://git.io/typing-svg)
-[![Typing SVG](https://readme-typing-svg.demolab.com?font=Pixelify+Sans&weight=500&size=25&letterSpacing=&duration=3000&pause=1000&color=00C2FF&background=FFD9FA&center=true&vCenter=true&width=1000&height=100&lines=+I'm+18+years+old.+Old+is+the+main+word%2C+;mghm%2C+okey%3F;Repeating%2C+if+misunderstood+.+.+.)](https://git.io/typing-svg)
-stack: Html, Css, Js/Ts, Next.js/React, tailwind, Node.js/Express
-interested in: python, rust, c/c++, bash
-not a vibe coder
+<?xml version="1.0" encoding="UTF-8"?>
+<svg viewBox="0 0 800 600" xmlns="http://www.w3.org/2000/svg">
+  <style>
+    @import url('https://fonts.googleapis.com/css2?family=Press+Start+2P&amp;display=swap');
+    
+    .pixel-text {
+      font-family: 'Press Start 2P', cursive;
+      font-size: 18px;
+    }
+    
+    .background {
+      fill: #121212;
+    }
+    
+    .header {
+      fill: #6b21df;
+    }
+    
+    .content-bg {
+      fill: #ffb7fa;
+    }
+    
+    .blue-text {
+      fill: #00ffea;
+    }
+    
+    .purple-text {
+      fill: #9966ff;
+    }
+    
+    /* Анимации для пикселей */
+    @keyframes float {
+      0% { transform: translateY(0); }
+      50% { transform: translateY(-5px); }
+      100% { transform: translateY(0); }
+    }
+    
+    @keyframes pulse {
+      0% { opacity: 0.7; }
+      50% { opacity: 1; }
+      100% { opacity: 0.7; }
+    }
+    
+    @keyframes typewriter {
+      from { stroke-dashoffset: 100%; }
+      to { stroke-dashoffset: 0; }
+    }
+    
+    @keyframes fadeIn {
+      from { opacity: 0; }
+      to { opacity: 1; }
+    }
+    
+    .pixel {
+      animation: float 3s infinite alternate ease-in-out;
+    }
+    
+    .pixel:nth-child(odd) {
+      animation-delay: 0.5s;
+      animation-duration: 3.5s;
+    }
+    
+    .pixel:nth-child(3n) {
+      animation-delay: 1s;
+      animation-duration: 4s;
+    }
+    
+    .glow {
+      animation: pulse 2s infinite alternate ease-in-out;
+    }
+    
+    .typing-text {
+      stroke-dasharray: 100%;
+      animation: typewriter 4s linear forwards;
+      stroke: #9966ff;
+      stroke-width: 1;
+      fill: none;
+    }
+    
+    .avatar-container {
+      animation: fadeIn 2s ease-in-out;
+    }
+    
+    .stack-item {
+      opacity: 0;
+      animation: fadeIn 0.5s ease-in-out forwards;
+    }
+    
+    .floating-element {
+      animation: float 4s infinite alternate ease-in-out;
+    }
+    
+    /* Анимация для текста */
+    .text-reveal {
+      opacity: 0;
+      animation: fadeIn 1s ease-in-out forwards;
+    }
+    
+    .text-reveal:nth-child(1) { animation-delay: 0.2s; }
+    .text-reveal:nth-child(2) { animation-delay: 0.4s; }
+    .text-reveal:nth-child(3) { animation-delay: 0.6s; }
+    .text-reveal:nth-child(4) { animation-delay: 0.8s; }
+    .text-reveal:nth-child(5) { animation-delay: 1.0s; }
+    .text-reveal:nth-child(6) { animation-delay: 1.2s; }
+    .text-reveal:nth-child(7) { animation-delay: 1.4s; }
+    .text-reveal:nth-child(8) { animation-delay: 1.6s; }
+    .text-reveal:nth-child(9) { animation-delay: 1.8s; }
+    .text-reveal:nth-child(10) { animation-delay: 2.0s; }
+    
+    .stack-item:nth-child(1) { animation-delay: 0.2s; }
+    .stack-item:nth-child(2) { animation-delay: 0.4s; }
+    .stack-item:nth-child(3) { animation-delay: 0.6s; }
+    .stack-item:nth-child(4) { animation-delay: 0.8s; }
+    .stack-item:nth-child(5) { animation-delay: 1.0s; }
+    .stack-item:nth-child(6) { animation-delay: 1.2s; }
+    .stack-item:nth-child(7) { animation-delay: 1.4s; }
+    .stack-item:nth-child(8) { animation-delay: 1.6s; }
+    .stack-item:nth-child(9) { animation-delay: 1.8s; }
+    .stack-item:nth-child(10) { animation-delay: 2.0s; }
+    
+    /* Анимация для аватара */
+    @keyframes avatarBlink {
+      0%, 90%, 100% { transform: scaleY(1); }
+      95% { transform: scaleY(0.1); }
+    }
+    
+    .avatar-eye {
+      transform-origin: center;
+      animation: avatarBlink 3s infinite;
+    }
+    
+    @keyframes avatarFloat {
+      0% { transform: translateY(0); }
+      50% { transform: translateY(-8px); }
+      100% { transform: translateY(0); }
+    }
+    
+    .avatar {
+      animation: avatarFloat 5s infinite ease-in-out;
+    }
+    
+    /* Пиксельные частицы */
+    @keyframes pixelDrift {
+      0% { transform: translate(0, 0); }
+      25% { transform: translate(3px, -3px); }
+      50% { transform: translate(0, -6px); }
+      75% { transform: translate(-3px, -3px); }
+      100% { transform: translate(0, 0); }
+    }
+    
+    .pixel-particle {
+      animation: pixelDrift 5s infinite ease-in-out;
+    }
+    
+    .pixel-particle:nth-child(odd) {
+      animation-delay: 0.7s;
+      animation-duration: 4.3s;
+    }
+    
+    .pixel-particle:nth-child(3n) {
+      animation-delay: 1.2s;
+      animation-duration: 5.7s;
+    }
+    
+    /* Обводка текста */
+    @keyframes outlineText {
+      0% { stroke-dashoffset: 100%; }
+      100% { stroke-dashoffset: 0; }
+    }
+    
+    .outline-text {
+      stroke: #9966ff;
+      stroke-width: 1;
+      fill: transparent;
+      stroke-dasharray: 100%;
+      stroke-dashoffset: 100%;
+      animation: outlineText 3s linear forwards;
+    }
+  </style>
+  
+  <!-- Фон -->
+  <rect class="background" width="100%" height="100%"/>
+  
+  <!-- Создаем пиксельные частицы для фона -->
+  <g class="pixel-particles">
+    <rect class="pixel-particle" x="50" y="50" width="4" height="4" fill="#9966ff" opacity="0.5"/>
+    <rect class="pixel-particle" x="150" y="80" width="3" height="3" fill="#00ffea" opacity="0.4"/>
+    <rect class="pixel-particle" x="280" y="40" width="5" height="5" fill="#9966ff" opacity="0.6"/>
+    <rect class="pixel-particle" x="400" y="70" width="4" height="4" fill="#00ffea" opacity="0.5"/>
+    <rect class="pixel-particle" x="520" y="30" width="3" height="3" fill="#9966ff" opacity="0.4"/>
+    <rect class="pixel-particle" x="650" y="60" width="5" height="5" fill="#00ffea" opacity="0.6"/>
+    <rect class="pixel-particle" x="720" y="90" width="4" height="4" fill="#9966ff" opacity="0.5"/>
+    <rect class="pixel-particle" x="100" y="500" width="3" height="3" fill="#00ffea" opacity="0.4"/>
+    <rect class="pixel-particle" x="250" y="550" width="5" height="5" fill="#9966ff" opacity="0.6"/>
+    <rect class="pixel-particle" x="400" y="520" width="4" height="4" fill="#00ffea" opacity="0.5"/>
+    <rect class="pixel-particle" x="550" y="540" width="3" height="3" fill="#9966ff" opacity="0.4"/>
+    <rect class="pixel-particle" x="700" y="560" width="5" height="5" fill="#00ffea" opacity="0.6"/>
+  </g>
+  
+  <!-- Заголовок -->
+  <rect class="header" x="50" y="30" width="700" height="70" rx="5"/>
+  <text class="pixel-text blue-text" x="400" y="75" text-anchor="middle" class="typing-text glow">
+    <tspan class="text-reveal">this readme is still in the development mode, cause I'm bored</tspan>
+  </text>
+  
+  <!-- Приветствие -->
+  <rect class="content-bg" x="50" y="120" width="700" height="100" rx="5"/>
+  <text class="pixel-text purple-text" x="100" y="175">
+    <tspan class="text-reveal">Hello, my name is...</tspan>
+  </text>
+  
+  <!-- Имя -->
+  <rect class="content-bg" x="50" y="240" width="700" height="100" rx="5"/>
+  <text class="pixel-text purple-text outline-text" x="400" y="295" text-anchor="middle">
+    <tspan>Ivan Kurbakov</tspan>
+  </text>
+  
+  <!-- Дополнительная информация -->
+  <rect class="content-bg" x="50" y="360" width="700" height="100" rx="5"/>
+  <text class="pixel-text blue-text" x="400" y="415" text-anchor="middle">
+    <tspan class="text-reveal">Repeating, if misund</tspan>
+  </text>
+  
+  <!-- Стек технологий -->
+  <g transform="translate(50, 480)">
+    <text class="pixel-text" x="0" y="20" fill="#ffffff">
+      <tspan class="stack-item">stack: </tspan>
+      <tspan class="stack-item" fill="#e34c26">Html, </tspan>
+      <tspan class="stack-item" fill="#563d7c">Css, </tspan>
+      <tspan class="stack-item" fill="#f1e05a">Js/TS, </tspan>
+      <tspan class="stack-item" fill="#00d8ff">Next.js/React, </tspan>
+      <tspan class="stack-item" fill="#38b2ac">tailwind, </tspan>
+      <tspan class="stack-item" fill="#339933">Node.js/Express</tspan>
+    </text>
+    <text class="pixel-text" x="0" y="45" fill="#ffffff">
+      <tspan class="stack-item">interested in: </tspan>
+      <tspan class="stack-item" fill="#3572A5">python, </tspan>
+      <tspan class="stack-item" fill="#dea584">rust, </tspan>
+      <tspan class="stack-item" fill="#f34b7d">c/c++, </tspan>
+      <tspan class="stack-item" fill="#89e051">bash</tspan>
+      <tspan class="stack-item"> not a vibe coder</tspan>
+    </text>
+  </g>
+  
+  <!-- Место для аватара -->
+  <g class="avatar-container" transform="translate(600, 490)">
+    <!-- Пиксельный аватар -->
+    <g class="avatar">
+      <!-- Базовая форма головы -->
+      <rect x="0" y="0" width="40" height="40" fill="#ffb7fa" rx="5"/>
+      
+      <!-- Глаза -->
+      <rect class="avatar-eye" x="10" y="15" width="5" height="5" fill="#9966ff"/>
+      <rect class="avatar-eye" x="25" y="15" width="5" height="5" fill="#9966ff"/>
+      
+      <!-- Улыбка -->
+      <path d="M15,25 Q20,30 25,25" stroke="#9966ff" stroke-width="2" fill="none"/>
+      
+      <!-- Пиксельные детали -->
+      <rect class="pixel" x="5" y="5" width="3" height="3" fill="#6b21df" opacity="0.7"/>
+      <rect class="pixel" x="32" y="7" width="3" height="3" fill="#6b21df" opacity="0.7"/>
+      <rect class="pixel" x="8" y="32" width="3" height="3" fill="#6b21df" opacity="0.7"/>
+      <rect class="pixel" x="29" y="30" width="3" height="3" fill="#6b21df" opacity="0.7"/>
+    </g>
+    
+    <!-- Пикселяция вокруг аватара -->
+    <rect class="pixel floating-element" x="-10" y="15" width="4" height="4" fill="#00ffea" opacity="0.8"/>
+    <rect class="pixel floating-element" x="46" y="20" width="4" height="4" fill="#9966ff" opacity="0.8"/>
+    <rect class="pixel floating-element" x="15" y="-10" width="4" height="4" fill="#00ffea" opacity="0.8"/>
+    <rect class="pixel floating-element" x="25" y="46" width="4" height="4" fill="#9966ff" opacity="0.8"/>
+  </g>
+  
+  <!-- Область для вставки вашего фото (ее можно настроить через HTML) -->
+  <foreignObject x="470" y="490" width="100" height="100" class="avatar-container">
+    <div xmlns="http://www.w3.org/1999/xhtml" style="width: 100%; height: 100%; border-radius: 50%; overflow: hidden; border: 2px solid #9966ff;">
+      <!-- Здесь можно будет вставить изображение через img src -->
+      <div style="width: 100%; height: 100%; background: #333; display: flex; align-items: center; justify-content: center; color: #00ffea; font-family: 'Press Start 2P', cursive; font-size: 10px; text-align: center;">
+        PHOTO
+      </div>
+    </div>
+  </foreignObject>
+</svg>
