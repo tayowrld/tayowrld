@@ -199,7 +199,7 @@
   
   <!-- Заголовок -->
   <rect class="header" x="50" y="30" width="700" height="70" rx="5"/>
-  <text class="pixel-text blue-text" x="400" y="75" text-anchor="middle" class="typing-text glow">
+  <text class="pixel-text blue-text typing-text glow" x="400" y="75" text-anchor="middle">
     <tspan class="text-reveal">this readme is still in the development mode, cause I'm bored</tspan>
   </text>
   
