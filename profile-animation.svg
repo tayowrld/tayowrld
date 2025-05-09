@@ -118,7 +118,6 @@
     .stack-item:nth-child(9) { animation-delay: 1.8s; }
     .stack-item:nth-child(10) { animation-delay: 2.0s; }
     
-    /* Анимация для аватара */
     @keyframes avatarBlink {
       0%, 90%, 100% { transform: scaleY(1); }
       95% { transform: scaleY(0.1); }
@@ -139,7 +138,6 @@
       animation: avatarFloat 5s infinite ease-in-out;
     }
     
-    /* Пиксельные частицы */
     @keyframes pixelDrift {
       0% { transform: translate(0, 0); }
       25% { transform: translate(3px, -3px); }
@@ -162,7 +160,6 @@
       animation-duration: 5.7s;
     }
     
-    /* Обводка текста */
     @keyframes outlineText {
       0% { stroke-dashoffset: 100%; }
       100% { stroke-dashoffset: 0; }
@@ -177,11 +174,7 @@
       animation: outlineText 3s linear forwards;
     }
   </style>
-  
-  <!-- Фон -->
   <rect class="background" width="100%" height="100%"/>
-  
-  <!-- Создаем пиксельные частицы для фона -->
   <g class="pixel-particles">
     <rect class="pixel-particle" x="50" y="50" width="4" height="4" fill="#9966ff" opacity="0.5"/>
     <rect class="pixel-particle" x="150" y="80" width="3" height="3" fill="#00ffea" opacity="0.4"/>
@@ -196,32 +189,22 @@
     <rect class="pixel-particle" x="550" y="540" width="3" height="3" fill="#9966ff" opacity="0.4"/>
     <rect class="pixel-particle" x="700" y="560" width="5" height="5" fill="#00ffea" opacity="0.6"/>
   </g>
-  
-  <!-- Заголовок -->
   <rect class="header" x="50" y="30" width="700" height="70" rx="5"/>
   <text class="pixel-text blue-text typing-text glow" x="400" y="75" text-anchor="middle">
     <tspan class="text-reveal">this readme is still in the development mode, cause I'm bored</tspan>
   </text>
-  
-  <!-- Приветствие -->
   <rect class="content-bg" x="50" y="120" width="700" height="100" rx="5"/>
   <text class="pixel-text purple-text" x="100" y="175">
     <tspan class="text-reveal">Hello, my name is...</tspan>
   </text>
-  
-  <!-- Имя -->
   <rect class="content-bg" x="50" y="240" width="700" height="100" rx="5"/>
   <text class="pixel-text purple-text outline-text" x="400" y="295" text-anchor="middle">
     <tspan>Ivan Kurbakov</tspan>
   </text>
-  
-  <!-- Дополнительная информация -->
   <rect class="content-bg" x="50" y="360" width="700" height="100" rx="5"/>
   <text class="pixel-text blue-text" x="400" y="415" text-anchor="middle">
-    <tspan class="text-reveal">Repeating, if misund</tspan>
+    <tspan class="text-reveal">If misunderstood</tspan>
   </text>
-  
-  <!-- Стек технологий -->
   <g transform="translate(50, 480)">
     <text class="pixel-text" x="0" y="20" fill="#ffffff">
       <tspan class="stack-item">stack: </tspan>
@@ -241,8 +224,6 @@
       <tspan class="stack-item"> not a vibe coder</tspan>
     </text>
   </g>
-  
-  <!-- Место для аватара -->
   <g class="avatar-container" transform="translate(600, 490)">
     <!-- Пиксельный аватар -->
     <g class="avatar">
@@ -269,14 +250,4 @@
     <rect class="pixel floating-element" x="15" y="-10" width="4" height="4" fill="#00ffea" opacity="0.8"/>
     <rect class="pixel floating-element" x="25" y="46" width="4" height="4" fill="#9966ff" opacity="0.8"/>
   </g>
-  
-  <!-- Область для вставки вашего фото (ее можно настроить через HTML) -->
-  <foreignObject x="470" y="490" width="100" height="100" class="avatar-container">
-    <div xmlns="http://www.w3.org/1999/xhtml" style="width: 100%; height: 100%; border-radius: 50%; overflow: hidden; border: 2px solid #9966ff;">
-      <!-- Здесь можно будет вставить изображение через img src -->
-      <div style="width: 100%; height: 100%; background: #333; display: flex; align-items: center; justify-content: center; color: #00ffea; font-family: 'Press Start 2P', cursive; font-size: 10px; text-align: center;">
-        PHOTO
-      </div>
-    </div>
-  </foreignObject>
 </svg>
