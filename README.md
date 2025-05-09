@@ -1,7 +1,7 @@
 # Привет, я Ivan Kurbakov 👋
 
 <div align="center">
-  <img src="https://raw.githubusercontent.com/tayowrld/tayowrld/refs/heads/main/profile-animation.svg" width="800" alt="Animated Profile">
+  <img src="./profile-animation.svg" width="800" alt="Animated Profile">
 </div>
 
 ## Мой технологический стек 💻
