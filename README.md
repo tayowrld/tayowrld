@@ -1,9 +1,9 @@
 👉 [Landing README](https://readme-landing.vercel.app/?url=github.com/username/repo)
 🐱 Вдохновлено эстетикой Omori и пиксель-артом  
 
-# Ivan Kurbakov
+# Ivan Kurbakov, 19 yo.
 
-🎨 Full-stack web-dev (11 лет опыта)  
+🎨 Full-stack web-dev (11 лет, 5 лет коммерция)  
 🧪 Open-source contributor  
 
 ---
