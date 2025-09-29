@@ -15,6 +15,6 @@ Then, when you looked a little closer into me, you can see my stats then. Have a
   <img style="width:55%;" src="https://github-readme-stats.vercel.app/api/top-langs/?username=tayowrld&theme=onedark"/>
 
   ### Some good repo
-  <img style="width:27%;" src="https://github-readme-stats.vercel.app/api/pin/?username=tayowrld&show_owner=true&repo=omarchi-mac-menu&theme=onedark"/>
-  <img style="width:27%;" src="https://github-readme-stats.vercel.app/api/pin/?username=tayowrld&show_owner=true&repo=wrld-logout&theme=onedark"/>
+  <img style="width:40%;" src="https://github-readme-stats.vercel.app/api/pin/?username=tayowrld&show_owner=true&repo=omarchi-mac-menu&theme=onedark"/>
+  <img style="width:40%;" src="https://github-readme-stats.vercel.app/api/pin/?username=tayowrld&show_owner=true&repo=wrld-logout&theme=onedark"/>
 </div>
