@@ -13,4 +13,4 @@ Also I have a very lovely girlfriend, she is literally my inspiration.
 
 Then, when you looked a little closer into me, you can see my stats then. Have a good day.
 
-[tayowrld's github stats](https://github-readme-stats.vercel.app/api?username=tayowrld&show_icons=true&theme=onedark)
+<img src="https://github-readme-stats.vercel.app/api?username=tayowrld&show_icons=true&theme=onedark)"/>
