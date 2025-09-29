@@ -1,6 +1,3 @@
-<img src="./head.webp" alt="logo"/>
-
-
 # Ivan Kurbakov, 19 yo.
 
 ### About.
