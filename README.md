@@ -11,6 +11,6 @@ Also I have a very lovely girlfriend, she is literally my inspiration.
 Then, when you looked a little closer into me, you can see my stats then. Have a good day.
 
 <div style="display:flex; width: 100%; justify-items: between; align-items:start;">
-  <img style="width:100%; margin-bottom:200px; padding:20px" src="https://github-readme-stats.vercel.app/api?username=tayowrld&show_icons=true&theme=onedark)"/>
-  <img style="width:100%; padding:20px" src="https://github-readme-stats.vercel.app/api/top-langs/?username=tayowrld&theme=onedark)"/>
+  <img style="width:55%; margin-bottom:200px; padding:20px" src="https://github-readme-stats.vercel.app/api?username=tayowrld&show_icons=true&theme=onedark)"/>
+  <img style="width:55%; padding:20px" src="https://github-readme-stats.vercel.app/api/top-langs/?username=tayowrld&theme=onedark)"/>
 </div>
