@@ -1,4 +1,6 @@
-<h1 style="width:100%; text-align:right"># Ivan Kurbakov, 20.</h1>
+<h1 style="width:100%; text-align:right">Ivan Kurbakov, 20.</h1>
+
+<img style="width:512px" src="./tayowrld.jpg">
 
 **I'm currently in:** Web-dev, Software Engineer and CI/CD
 <br>**I've tried myself in:** OpenSource contributer, OSDev, Assembly
