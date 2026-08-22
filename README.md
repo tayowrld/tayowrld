@@ -3,7 +3,7 @@
 <img style="width:512px" src="./tayowrld.jpg">
 
 **I'm currently in:** Web-dev, Software Engineer and CI/CD
-<br>**I've tried myself in:** OpenSource, OSDev, Assembly
+<br>**I've tried myself in:** OpenSource contributor
 
 *My projects*:
 - [**АртЛавъка №1**](https://артлавъка.рф) - e-commerce for a family bussiness.
